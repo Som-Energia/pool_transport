@@ -1,5 +1,3 @@
-__version__ = '0.0.1-alpha'
-
 from xmlrpc.client import Transport as XMLRPCTransport
 
 from urllib3 import HTTPConnectionPool, HTTPSConnectionPool

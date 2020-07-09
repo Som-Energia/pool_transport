@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-from setuptools import setup, find_packages
-from pool_transport import __version__ as VERSION
+from setuptools import find_packages, setup
+
+from __version__ import VERSION
 
 readme = open("README.md").read()
 
